@@ -1,0 +1,7 @@
+({
+	handleClick : function(component, event, helper)
+    {
+	 var textForCopy = component.find("inputF").get("v.value");
+        helper.copyTextHelper(component,event,textForCopy);
+	}
+})

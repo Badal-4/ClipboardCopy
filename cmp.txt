@@ -1,0 +1,13 @@
+<aura:component >
+	<div>
+        <lightning:textArea label="Please enter a text here" aura:id="inputF"/>
+        <lightning:button label="Copy to Clipboard"
+                          onclick="{!c.handleClick}"
+                          aura:id="btn1"
+                          variant="brand"/>
+    </div>
+    <div>
+    <lightning:textArea value=""
+                        label="Paste Here for testing"/>
+    </div>
+</aura:component>
